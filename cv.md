@@ -7,6 +7,7 @@
 
 ### Contacts:
 * __Phone__: +48 575 910 538
+* __Email__: parunov.r.o@gmail.com
 
 ### About:
 Currently working on a project (CRM-system) as html&css-coder. My main tasks: creating page layouts and elements from design, organizing styles.
