@@ -20,6 +20,17 @@ I'm trying to learn Javascript, because it's already boring only coding in html 
 * Git (GitHub, Bitbucket)
 * Apps: Photoshop, Figma, Sublime Text, VSCode
 
+### Code example:
+__Highest and Lowest KATA from CODEWARS__: In this little assignment you are given a string of space separated numbers, and have to return the highest and lowest number.
+
+```javascript
+function highAndLow(numbers){
+  let Arr = numbers.split(' ')
+  let newArr = Arr.map(Number)
+  return (Math.max.apply(null, newArr) + ' ' + Math.min.apply(null, newArr))
+}
+```
+
 ### Languages:
 * Ukrainian - Native
 * Russian - Native
