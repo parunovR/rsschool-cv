@@ -1,1 +1,1 @@
-# rsschool-cv
+https://parunovR.github.io/rsschool-cv/cv
