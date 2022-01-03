@@ -350,4 +350,336 @@ template {
 
 
 
+/*** MAIN STYLES ***/
 
+/* Fonts */
+@font-face {
+  font-family: 'SF UI Display';
+  src: url('fonts/SFUIDisplay-Regular.eot');
+  src: local('SF UI Display Regular'), local('SFUIDisplay-Regular'),
+  url('fonts/SFUIDisplay-Regular.eot?#iefix') format('embedded-opentype'),
+  url('fonts/SFUIDisplay-Regular.woff2') format('woff2'),
+  url('fonts/SFUIDisplay-Regular.woff') format('woff'),
+  url('fonts/SFUIDisplay-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SF UI Display';
+  src: url('fonts/SFUIDisplay-Medium.eot');
+  src: local('SF UI Display Medium'), local('SFUIDisplay-Medium'),
+  url('SFUIDisplay-Medium.eot?#iefix') format('embedded-opentype'),
+  url('SFUIDisplay-Medium.woff2') format('woff2'),
+  url('SFUIDisplay-Medium.woff') format('woff'),
+  url('SFUIDisplay-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SF UI Display';
+  src: url('fonts/SFUIDisplay-Semibold.eot');
+  src: local('SF UI Display Semibold'), local('SFUIDisplay-Semibold'),
+  url('fonts/SFUIDisplay-Semibold.eot?#iefix') format('embedded-opentype'),
+  url('fonts/SFUIDisplay-Semibold.woff2') format('woff2'),
+  url('fonts/SFUIDisplay-Semibold.woff') format('woff'),
+  url('fonts/SFUIDisplay-Semibold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* variables */
+:root {
+  --accent-color: #FF6E41;
+  --black: #24262B;
+  --gray: #595E6C;
+  --light-gray: #CACAD6;
+  --off-white: #FAF8F7;
+}
+
+/* main styles */
+body {
+  font: normal 16px "SF UI Display", sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: var(--off-white);
+  color: var(--gray);
+}
+* {
+  margin: 0;
+}
+hr {
+  border-bottom: 1px solid var(--light-gray);
+}
+p {
+  font-family: SF UI Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: inherit;
+  line-height: 1.3rem;
+  margin-bottom: 0.25rem;
+}
+a {
+  color: var(--gray);
+}
+a[target='_blank'] {
+  color: var(--accent-color);
+}
+a:hover {
+  color: var(--light-gray);
+}
+ul {
+  padding-left: 1rem;
+}
+ul li {
+  margin-bottom: .25rem;
+}
+
+.checkmark-list {
+  padding: 0;
+}
+.checkmark-list li {
+  list-style: none;
+  position: relative;
+  padding: 0 0 0 1rem;
+}
+.checkmark-list li::before {
+  content: ""; 
+  position: absolute; 
+  left: 2px;
+  top: 2px;
+  width: 3px;
+  height: 6px;
+  border: solid var(--accent-color);
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+.highlight {
+  background-color: var(--gray);
+  color: var(--light-gray);
+  padding: 1rem;
+}
+.highlight code {
+  white-space: pre-wrap;
+  line-height: 1.4rem;
+}
+.highlight .kd,
+.highlight .k {
+  color: #cd4759;
+}
+.highlight .o {
+  color: #4f8eff;
+}
+.highlight .nb {
+  color: #c4d123;
+}
+.highlight .kc {
+  color: #1ccf3d;
+}
+
+.page-wrap {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  max-width: 900px;
+  width: 100%;
+  min-height: 100vh;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 1.1875rem;
+  padding-right: 1.1875rem;
+}
+.page-wrap::before {
+  content: '';
+  height: 0.5rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: var(--accent-color);
+}
+.content-wrap {
+  padding-left: 1.1875rem;
+  padding-right: 1.1875rem;
+}
+.page-wrap > * {
+  flex-shrink: 0;
+}
+.header-wrap {
+  display: flex;
+  padding-top: 1.875rem;
+}
+.page-header {
+  flex-grow: 1;
+  max-width: calc(70% - 1.875rem);
+  width: 100%;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--light-gray);
+}
+.page-header,
+.aside,
+.main-content,
+.footer-content {
+  margin-right: 1.1875rem;
+  margin-left: 1.1875rem;
+}
+.main-title {
+  font-family: SF UI Display;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 3.6363rem;
+  line-height: 4.6363rem;
+  color: var(--black);
+  margin: 0;
+}
+.main-subtitle {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4545rem;
+  line-height: 1.7272rem;
+  color: var(--gray);
+  margin: 0;
+}
+.page-header-image {
+  display: block;
+  width: 100%;
+  max-width: 7rem;
+  max-height: 7rem;
+  object-fit: cover;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.aside {
+  max-width: calc(30% - 1.875rem);
+  width: 100%;
+}
+.header-wrap .aside {
+  border-bottom: 1px solid var(--light-gray);
+}
+.main-wrap {
+  display: flex;
+}
+.main-content {
+  padding-top: 1rem;
+  max-width: calc(70% - 1.875rem);
+}
+.content-section {
+  display: flex;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.section-heading {
+  padding-right: 1.1818rem;
+  max-width: 20%;
+  width: 100%;
+  flex-shrink: 0;
+}
+.section-title,
+.aside-title {
+  position: relative;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.8181rem;
+  line-height: 1rem;
+  color: var(--black);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-bottom: 0.75rem;
+}
+.section-title::after {
+  content: '';
+  position: absolute;
+  bottom: -0.75rem;
+  left: 0;
+  display: block;
+  height: 0.5rem;
+  width: 3.4545rem;
+  background-color: var(--accent-color);
+}
+.section-description {
+  flex-grow: 1;
+  max-width: 80%;
+  width: 100%;
+}
+.main-wrap .aside {
+  padding-top: 1rem;
+}
+.aside-section {
+  padding-top: 1rem;
+  padding-bottom: 0.75rem;
+}
+.aside-title {
+  margin-bottom: 0.25rem;
+}
+.aside-description {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.8181rem;
+  line-height: 1rem;
+  color: var(--gray);
+}
+
+.page-footer {
+  margin-top: auto;
+}
+.footer-inner {
+  display: flex;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-right: 1.1875rem;
+  margin-left: 1.1875rem;
+  border-top: 1px solid var(--light-gray);
+}
+.footer-content {
+  display: flex;
+  align-items: center;
+  max-width: calc(70% - 1.875rem);
+  width: 100%;
+  margin-left: 0;
+  margin-right: 3.75rem;
+}
+.footer-description,
+.footer-copy {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.8181rem;
+  line-height: 1rem;
+  color: var(--gray);
+}
+.gh-logo {
+  display: block;
+  width: 32px;
+  margin-right: 2rem;
+}
+.rsschool-logo {
+  display: block;
+  width: 85px;
+}
+
+/* mobile */
+@media (max-width: 576px) {
+  .header-wrap,
+  .main-wrap,
+  .content-section {
+    flex-wrap: wrap;
+  }
+  .main-title {
+    font-size: 2.6rem;
+  }
+  .page-header, .aside, .main-content, .footer-content, .section-heading, .section-description {
+    max-width: unset;
+    width: 100%;
+  }
+  .header-wrap .aside {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .section-title {
+    margin-bottom: 1.75rem;
+  }
+  .footer-inner .aside {
+    width: auto;
+    margin-left: auto;
+  }
+}
