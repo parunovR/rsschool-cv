@@ -5,25 +5,42 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/style.css">
-  <title>RSSchool CV Task | Roman Parunov</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Roman Parunov | RSSchool CV Task</title>
 </head>
 
 <body>
   <div class="page-wrap">
-    <div class="header-wrap">
+    <div class="nav-wrap nav-wrap-main container">
+      <button class="btn-menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="nav-main">
+        <ul class="main-menu">
+          <li><a href="#contactsSection">Contacts</a></li>
+          <li><a href="#aboutSection">About</a></li>
+          <li><a href="#codeExampleSection">Code example</a></li>
+          <li><a href="#skillsSection">Skills</a></li>
+          <li><a href="#languagesSection">Languages</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="header-wrap container">
       <header class="page-header">
         <h1 class="main-title">Roman Parunov</h1>
         <h2 class="main-subtitle">Junior Front-End Dev</h2>
       </header>
       <aside class="aside">
-        <img class="page-header-image" src="img/roman_parunov.jpg" alt="Roman Parunov photo">
+        <img class="page-header-image" src="assets/img/roman_parunov.jpg" alt="Roman Parunov photo">
       </aside>
     </div>
 
-    <div class="main-wrap">
+    <div class="main-wrap container">
       <main class="main-content">
-        <section class="content-section">
+        <section class="content-section" id="aboutSection">
           <div class="section-heading">
             <h3 class="section-title">About</h3>
           </div>
@@ -34,31 +51,24 @@
               also because I'm stuck at the same level, and I want to improve my skills.</p>
           </div>
         </section>
-        <section class="content-section">
+        <section class="content-section" id="codeExampleSection">
           <div class="section-heading">
             <h3 class="section-title">Code example</h3>
           </div>
           <div class="section-description">
             <pre class="highlight"><code><span class="kd">function</span> <span class="o">highAndLow</span><span>(</span><span class="nb">numbers</span><span>){</span>
-      <span class="kd">let</span> <span>Arr</span> <span class="o">=</span> <span>numbers</span><span class="o">.</span><span>split</span><span>(</span><span class="o">'</span><span> </span><span class="o">'</span><span>)</span>
-      <span class="kd">let</span> <span>newArr</span> <span class="o">=</span> <span>Arr</span><span class="o">.</span><span>map</span><span>(</span><span>Number</span><span>)</span>
-      <span class="k">return</span> <span>(</span><span class="nb">Math</span><span class="o">.</span><span>max</span><span class="o">.</span><span>apply</span><span>(</span><span class="kc">null</span><span>,</span> <span>newArr</span><span>)</span> <span class="o">+</span> <span class="o">'</span><span> </span><span class="o">'</span> <span class="o">+</span> <span class="nb">Math</span><span class="o">.</span><span>min</span><span class="o">.</span><span>apply</span><span>(</span><span class="kc">null</span><span>,</span> <span>newArr</span><span>))</span>
-    <span>}</span>
-    </code></pre>
+    <span class="kd">let</span> <span>Arr</span> <span class="o">=</span> <span>numbers</span><span class="o">.</span><span>split</span><span>(</span><span class="o">'</span><span> </span><span class="o">'</span><span>)</span>
+    <span class="kd">let</span> <span>newArr</span> <span class="o">=</span> <span>Arr</span><span class="o">.</span><span>map</span><span>(</span><span>Number</span><span>)</span>
+    <span class="k">return</span> <span>(</span><span class="nb">Math</span><span class="o">.</span><span>max</span><span class="o">.</span><span>apply</span><span>(</span><span class="kc">null</span><span>,</span> <span>newArr</span><span>)</span> <span class="o">+</span> <span class="o">'</span><span> </span><span class="o">'</span> <span class="o">+</span> <span class="nb">Math</span><span class="o">.</span><span>min</span><span class="o">.</span><span>apply</span><span>(</span><span class="kc">null</span><span>,</span> <span>newArr</span><span>))</span>
+<span>}</span>
+</code></pre>
           </div>
         </section>
-      </main>
-      <aside class="aside">
-        <section class="aside-section">
-          <h3 class="aside-title">Contacts</h3>
-          <div class="aside-description">
-            <p>Phone: <a href="tel:+48575910538">+48 575 910 538</a></p>
-            <p>E-mail: <a href="mailto:parunov.r.o@gmail.com">parunov.r.o@gmail.com</a></p>
+        <section class="content-section" id="skillsSection">
+          <div class="section-heading">
+            <h3 class="section-title">Skills</h3>
           </div>
-        </section>
-        <section class="aside-section">
-          <h3 class="aside-title">Skills</h3>
-          <div class="aside-description">
+          <div class="section-description">
             <ul class="checkmark-list">
               <li>HTML5, CSS3</li>
               <li>Gulp, SASS, Bootstrap</li>
@@ -68,9 +78,12 @@
             </ul>
           </div>
         </section>
-        <section class="aside-section">
-          <h3 class="aside-title">Languages</h3>
-          <div class="aside-description">
+
+        <section class="content-section" id="languagesSection">
+          <div class="section-heading">
+            <h3 class="section-title">Languages</h3>
+          </div>
+          <div class="section-description">
             <ul class="checkmark-list">
               <li>Ukrainian - Native</li>
               <li>Russian - Native</li>
@@ -79,10 +92,19 @@
             </ul>
           </div>
         </section>
+      </main>
+      <aside class="aside">
+        <section class="aside-section" id="contactsSection">
+          <h3 class="aside-title">Contacts</h3>
+          <div class="aside-description">
+            <p>Phone: <a href="tel:+48575910538">+48 575 910 538</a></p>
+            <p>E-mail: <a href="mailto:parunov.r.o@gmail.com">parunov.r.o@gmail.com</a></p>
+          </div>
+        </section>
       </aside>
     </div>
 
-    <footer class="page-footer">
+    <footer class="page-footer container">
       <div class="footer-inner">
         <div class="footer-content">
           <a class="gh-logo" href="https://github.com/parunovR" target="_blank">
@@ -97,12 +119,14 @@
           <span class="footer-copy">CV created 2022</span>
         </div>
         <aside class="aside">
-          <a href="https://rs.school/js/" target="_blank"><img class="rsschool-logo" src="img/rs_school_js.svg"
+          <a href="https://rs.school/js/" target="_blank"><img class="rsschool-logo" src="assets/img/rs_school_js.svg"
               alt="rsschool logo"></a>
         </aside>
       </div>
     </footer>
   </div>
+
+  <script src="assets/js/main.js"></script>
 </body>
 
 </html>
