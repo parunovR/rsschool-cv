@@ -235,6 +235,7 @@ ul li {
   list-style: none;
   position: relative;
   padding: 0 0 0 1rem;
+  margin-bottom: 0.5rem;
 }
 .checkmark-list li::before {
   content: "";
@@ -398,8 +399,8 @@ ul li {
 }
 .content-section {
   display: flex;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 .section-heading {
   padding-right: 1.1818rem;
