@@ -231,10 +231,13 @@ ul li {
 .checkmark-list {
   padding: 0;
 }
+.checkmark-list:not(:last-child) {
+  margin-bottom: 0.75rem;
+}
 .checkmark-list li {
   list-style: none;
   position: relative;
-  padding: 0 0 0 1rem;
+  padding: 0 0 0 1.2rem;
   margin-bottom: 0.5rem;
 }
 .checkmark-list li::before {
@@ -247,6 +250,9 @@ ul li {
   border: solid var(--accent-color);
   border-width: 0 2px 2px 0;
   transform: rotate(45deg);
+}
+.checkmark-list + p {
+  margin-top: 1.5rem;
 }
 
 .highlight {
