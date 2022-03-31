@@ -21,11 +21,6 @@ I'm trying to learn Javascript, because it's already boring only coding in html 
 * Git (GitHub, Bitbucket)
 * Apps: Photoshop, Figma, Sublime Text, VSCode
 
-### Education:
-* National University of Food Technology, Kyiv, Ukraine (engineer-technologist, master's degree)
-* Free exercises on [htmlacademy.ru](https://htmlacademy.ru/courses)
-* [JS Course · Stage 0 · RS School](https://rs.school/js-stage0/)
-
 ### Code example:
 __Highest and Lowest KATA from CODEWARS__: In this little assignment you are given a string of space separated numbers, and have to return the highest and lowest number.
 
@@ -36,6 +31,15 @@ function highAndLow(numbers){
   return (Math.max.apply(null, newArr) + ' ' + Math.min.apply(null, newArr))
 }
 ```
+
+### Jobs:
+* [CleverBox CRM](https://cleverbox-crm.com/) - html/css-coder (current)
+* [http://marox.digital/](http://marox.digital/) - Content manager, html/css-coder
+
+### Education:
+* National University of Food Technology, Kyiv, Ukraine (engineer-technologist, master's degree)
+* Free exercises on [htmlacademy.ru](https://htmlacademy.ru/courses)
+* [JS Course · Stage 0 · RS School](https://rs.school/js-stage0/)
 
 ### Languages:
 * Ukrainian - Native
