@@ -36,6 +36,16 @@ function highAndLow(numbers){
 * [CleverBox CRM](https://cleverbox-crm.com/) - html/css-coder (current)
 * [http://marox.digital/](http://marox.digital/) - Content manager, html/css-coder
 
+### Projects:
+* [CleverBox CRM](https://cleverbox-crm.com/) - HTML/CSS, simple JS, Jquery
+* [Lash Art University Training Center](https://lashart.university/) - HTML/CSS, simple JS, Jquery
+
+Took part (HTML/CSS):
+* [http://vesna-s.com.ua/](http://vesna-s.com.ua/)
+* [https://ark.in.ua/](https://ark.in.ua/)
+* [http://svitanok.kiev.ua/](http://svitanok.kiev.ua/)
+* [https://www.vivienne.com.ua/](https://www.vivienne.com.ua/)
+
 ### Education:
 * National University of Food Technology, Kyiv, Ukraine (engineer-technologist, master's degree)
 * Free exercises on [htmlacademy.ru](https://htmlacademy.ru/courses)
