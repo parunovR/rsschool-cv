@@ -10,7 +10,7 @@
 * __Email__: parunov.r.o@gmail.com
 
 ### About:
-Currently working on a project (CRM-system) as html&css-coder. My main tasks: creating page layouts and elements from design, organizing styles.
+Currently working on a project as html&css-coder. My main tasks: creating page layouts and elements from design, organizing styles.
 
 I'm trying to learn Javascript, because it's already boring only coding in html and css. And also because I'm stuck at the same level, and I want to improve my skills.
 
@@ -20,6 +20,11 @@ I'm trying to learn Javascript, because it's already boring only coding in html 
 * JavaScript (basic, in progres)
 * Git (GitHub, Bitbucket)
 * Apps: Photoshop, Figma, Sublime Text, VSCode
+
+### Education:
+* National University of Food Technology, Kyiv, Ukraine (engineer-technologist, master's degree)
+* Free exercises on [htmlacademy.ru](https://htmlacademy.ru/courses)
+* [JS Course · Stage 0 · RS School](https://rs.school/js-stage0/)
 
 ### Code example:
 __Highest and Lowest KATA from CODEWARS__: In this little assignment you are given a string of space separated numbers, and have to return the highest and lowest number.
