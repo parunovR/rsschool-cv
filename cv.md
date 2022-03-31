@@ -36,8 +36,8 @@ function highAndLow(numbers){
 ```
 
 ### Jobs:
-* [CleverBox CRM](https://cleverbox-crm.com/) - html/css-coder (current)
-* [http://marox.digital/](http://marox.digital/) - Content manager, html/css-coder
+* [CleverBox CRM](https://cleverbox-crm.com/) - html/css-coder, Front-End Trainee (current)
+* [marox.digital](http://marox.digital/) - Content manager, html/css-coder
 
 ### Projects:
 * [CleverBox CRM](https://cleverbox-crm.com/) - HTML/CSS, simple JS, Jquery
