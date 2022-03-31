@@ -8,6 +8,9 @@
 ### Contacts:
 * __Phone__: +48 575 910 538
 * __Email__: parunov.r.o@gmail.com
+* __Discord__: @STORM#1911
+* __GitHub__: https://github.com/parunovR
+* __Bitbucket__: https://bitbucket.org/parunov_r/
 
 ### About:
 Currently working on a project as html&css-coder. My main tasks: creating page layouts and elements from design, organizing styles.
