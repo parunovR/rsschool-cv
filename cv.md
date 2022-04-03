@@ -2,8 +2,8 @@
 
 *****
 
-# Roman Parunov
-## Junior Front-End
+## Roman Parunov
+### Junior Front-End
 
 -----
 
