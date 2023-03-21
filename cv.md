@@ -15,9 +15,11 @@
 * __Bitbucket__: [parunov_r](https://bitbucket.org/parunov_r/)
 
 ### About:
-Currently working on a project as html&css-coder. My main tasks: creating page layouts and elements from design, organizing styles.
+I'm skilled html&css-coder seeking an entry-level Frontend Developer position.
 
-I'm trying to learn Javascript, because it's already boring only coding in html and css. And also because I'm stuck at the same level, and I want to improve my skills.
+Currently working on a project CRM. My main tasks: creating page layouts and elements from design, organizing styles.
+
+I'm continuing to learn web development. Currently learning Javascript because I want to grow as a professional. And knowing only html and css is not enough for more complex and interesting projects.
 
 ### Skills:
 * HTML5, CSS3
